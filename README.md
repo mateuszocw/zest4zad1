@@ -2,6 +2,7 @@
 
 using namespace std;
 const int m = 16;
+
 int main() {
 	int t[m][m] = {};
 	int ldw = m * m; //liczba do wpisania
@@ -28,7 +29,6 @@ int main() {
 			i--;
 			j--;
 			break;
-
 		case 3: //w lewo
 			for (int k = 0; k < irw; j--, k++) {
 				t[i][j] = ldw;
